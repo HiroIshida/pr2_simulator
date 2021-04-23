@@ -1,7 +1,8 @@
 <launch>
 
   <!-- Base Control -->
-  <rosparam file="$(find pr2_controller_configuration_gazebo)/config/pr2_base_controller.yaml" command="load" />
+  <rosparam file="$(find pr2_controller_configuration_gazebo)/config/unabstracted_base_controller.yaml" command="load" />
+
 
   <!-- Odometry -->
   <rosparam file="$(find pr2_controller_configuration_gazebo)/config/pr2_odometry.yaml" command="load" />
